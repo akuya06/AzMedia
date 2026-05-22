@@ -1,41 +1,38 @@
-# Dependencies
-node_modules/
-
-# Build output
-dist/
-build/
-www/
 
 # Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
 
-# Environment variables
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
-# Zalo Mini App local/config cache
-.zmp/
-.zalo/
-miniapp.config.local.json
-
-# OS files
+# Misc
 .DS_Store
 Thumbs.db
 
-# Editor files
-.vscode/
-.idea/
-
-# Cache
-.cache/
-.temp/
-tmp/
-
-# Package manager cache
-.pnpm-store/
+# Production build
+www/
